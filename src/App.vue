@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-    <div class="patch__section">
+    <div class="patch__section rezerv">
       <div class="pacth__legend">
         <p>Куда уходит</p>
         <p>Номер порта</p>
@@ -42,7 +42,7 @@
         </div>
       </div>
     </div>
-    <div class="patch__section">
+    <div class="patch__section rezerv">
       <div class="pacth__legend">
         <p>Куда уходит</p>
         <p>Номер порта</p>
@@ -98,7 +98,7 @@ export default {
         {
           port: 7,
           destination: "-",
-          place: "-",
+          place: "104",
         },
         {
           port: 8,
@@ -133,7 +133,7 @@ export default {
         {
           port: 14,
           destination: "-",
-          place: "-",
+          place: "201",
         },
         {
           port: 15,
@@ -143,7 +143,7 @@ export default {
         {
           port: 16,
           destination: "-",
-          place: "-",
+          place: "204",
         },
         {
           port: 17,
@@ -168,22 +168,22 @@ export default {
         {
           port: 21,
           destination: "-",
-          place: "-",
+          place: "210",
         },
         {
           port: 22,
           destination: "-",
-          place: "-",
+          place: "REG1(2эт)",
         },
         {
           port: 23,
           destination: "-",
-          place: "-",
+          place: "REG2(2эт)",
         },
         {
           port: 24,
           destination: "-",
-          place: "-",
+          place: "211",
         },
       ],
       ports2: [
@@ -200,12 +200,12 @@ export default {
         {
           port: 3,
           destination: "-",
-          place: "-",
+          place: "214",
         },
         {
           port: 4,
           destination: "-",
-          place: "-",
+          place: "215",
         },
         {
           port: 5,
@@ -220,7 +220,7 @@ export default {
         {
           port: 7,
           destination: "-",
-          place: "-",
+          place: "301",
         },
         {
           port: 8,
@@ -230,7 +230,7 @@ export default {
         {
           port: 9,
           destination: "-",
-          place: "-",
+          place: "305",
         },
         {
           port: 10,
@@ -240,7 +240,7 @@ export default {
         {
           port: 11,
           destination: "-",
-          place: "-",
+          place: "307",
         },
         {
           port: 12,
@@ -280,12 +280,12 @@ export default {
         {
           port: 19,
           destination: "-",
-          place: "-",
+          place: "315(ПК)",
         },
         {
           port: 20,
           destination: "-",
-          place: "-",
+          place: "316(ПК)",
         },
         {
           port: 21,
@@ -377,7 +377,7 @@ export default {
         {
           port: 14,
           destination: "-",
-          place: "-",
+          place: "201",
         },
         {
           port: 15,
@@ -387,7 +387,7 @@ export default {
         {
           port: 16,
           destination: "-",
-          place: "-",
+          place: "204",
         },
         {
           port: 17,
@@ -412,17 +412,17 @@ export default {
         {
           port: 21,
           destination: "-",
-          place: "-",
+          place: "210",
         },
         {
           port: 22,
           destination: "-",
-          place: "-",
+          place: "REG1(2эт)",
         },
         {
           port: 23,
           destination: "-",
-          place: "-",
+          place: "REG2(2эт)",
         },
         {
           port: 24,
@@ -449,7 +449,7 @@ export default {
         {
           port: 4,
           destination: "-",
-          place: "-",
+          place: "215",
         },
         {
           port: 5,
@@ -464,7 +464,7 @@ export default {
         {
           port: 7,
           destination: "-",
-          place: "-",
+          place: "301",
         },
         {
           port: 8,
@@ -484,7 +484,7 @@ export default {
         {
           port: 11,
           destination: "-",
-          place: "-",
+          place: "307",
         },
         {
           port: 12,
@@ -519,17 +519,17 @@ export default {
         {
           port: 18,
           destination: "-",
-          place: "-",
+          place: "313",
         },
         {
           port: 19,
           destination: "-",
-          place: "-",
+          place: "315",
         },
         {
           port: 20,
           destination: "-",
-          place: "-",
+          place: "316",
         },
         {
           port: 21,
@@ -607,6 +607,10 @@ body {
 
 .port__number {
   font-size: 20px;
+}
+
+.rezerv {
+  background-color: rgba(22, 193, 67, 0.329);
 }
 
 .kommutator {
