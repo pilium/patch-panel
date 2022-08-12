@@ -88,7 +88,7 @@ export default {
         {
           port: 5,
           destination: "-",
-          place: "-",
+          place: "лаба(кабинеты)",
         },
         {
           port: 6,
